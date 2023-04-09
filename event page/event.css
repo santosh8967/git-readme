@@ -1,0 +1,197 @@
+.x-axis{
+    width: 100px;
+}
+body{
+    margin-top: 30px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0px 30px 0px 30px;
+    height: 600px;
+    background-color: white;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    border: 2px;
+    border: solid black;
+   
+}
+.row3{
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    border: solid black;
+    margin-left: 50px;
+    display: flex;
+
+}
+.column1{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 30px;
+    width: 15%;
+    height: 50%;
+    background-color: white;
+    border: solid 2px;
+}
+.oval{
+    margin-top: 45px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid black;
+    border-radius: 70%;
+    margin-left: 44px;
+}
+.column2{
+    margin-left: 50px;
+    margin-top: 45px;
+    width: 50%;
+    height: 80%;
+    background-color: white;
+   
+}
+.row1{
+    margin: 0 0 40px 600px
+}
+.row2{
+    margin: 0 0 20px 520px;
+}
+.form{
+    margin-left: 320px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mobile{
+    margin-left: 290px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.seats{
+    margin-left: 235px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Attendee{
+    margin-top: 20px;
+    margin-left: 207px;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 48px;
+    margin-left: 49%;
+    margin-right: 20px;
+    border-color: black;
+}
+.btn-sucess{
+    border-color: black;
+}
+.text{
+    font-weight:bold; 
+    font-size: 25px; 
+    font-family: 'Montserrat', sans-serif;
+    /* align-items: center; */
+}
+
+@media screen and (max-width:480px) {
+    .text{
+        margin-left: 200px;
+      }
+      .number{
+        margin-left: 200px;
+      }
+}
+@media screen and (max-width:600px) 
+{
+    .text{
+        margin-left: 200px;
+      }
+      .number{
+        margin-left: 200px;
+      }
+}
+
+  
+@media screen and (max-width:768px) {
+  
+    .text{
+        margin-left: 200px;
+      }
+      .number{
+        margin-left: 200px;
+      }
+}
+@media screen and (max-width:900px) {
+
+    .container{
+    width: 1500px;
+    margin: 5px 5px 5px 5px;
+    height: 600px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px;
+    border: solid black;
+   }
+   .row1{
+    margin: 0 0 40px 450px
+   }
+   .row2{
+    margin: 0 0 20px 360px;
+}
+.row3{
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    border: solid black;
+    margin-left: 50px;
+    display: flex;
+
+}
+.oval{
+    margin-top: 45px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid black;
+    border-radius: 80%;
+    margin-left: 10px;
+}
+.column2{
+    margin-left: 50px;
+    margin-top: 45px;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+   
+}
+.form{
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mobile{
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.seats{
+    margin-left: 115px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Attendee{
+    margin-top: 20px;
+    margin-left: 87px;
+    font-size: 20px;
+}
+.text{
+    margin-left: 200px;
+  }
+  .number{
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width:1024)
+{
+
+}

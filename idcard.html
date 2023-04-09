@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student ID Card</title>
+    <style>
+      /* Style for the ID card */
+      .card {
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Style for the image */
+      .card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img id="student-image" src="" alt="Student Image">
+      <h2 id="student-name">John Doe</h2>
+      <p id="student-id">ID: 123456</p>
+      <p id="student-major">Major: Computer Science</p>
+      <p id="student-gpa">GPA: 3.5</p>
+      <input type="file" id="image-upload" accept="image/*" onchange="loadImage(event)">
+    </div>
+    <script>
+      function loadImage(event) {
+        var image = document.getElementById('student-image');
+        image.src = URL.createObjectURL(event.target.files[0]);
+      }
+    </script>
+  </body>
+</html>
+<div class="bg-white rounded-lg shadow-md p-6">
+    <div class="flex justify-between mb-4">
+      <div>
+        <h1 class="text-2xl font-bold text-gray-800">Student ID Card</h1>
+        <p class="text-gray-600">Issued on: <span class="font-medium">April 5, 2023</span></p>
+      </div>
+      <img src="student-photo.jpg" alt="Student Photo" class="w-24 h-24 rounded-full">
+    </div>
+    <div class="flex mb-4">
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">Name:</p>
+        <p class="text-gray-800">John Doe</p>
+      </div>
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">ID Number:</p>
+        <p class="text-gray-800">123456</p>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">Date of Birth:</p>
+        <p class="text-gray-800">January 1, 2000</p>
+      </div>
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">Gender:</p>
+        <p class="text-gray-800">Male</p>
+      </div>
+    </div>
+    <div class="flex mb-4">
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">Department:</p>
+        <p class="text-gray-800">Computer Science</p>
+      </div>
+      <div class="flex-1">
+        <p class="text-gray-700 font-medium">Year of Study:</p>
+        <p class="text-gray-800">2nd</p>
+      </div>
+    </div>
+    <div class="flex justify-end">
+      <p class="text-gray-800 font-medium">Valid Until: <span class="font-bold">December 31, 2023</span></p>
+    </div>
+  </div>
+  
