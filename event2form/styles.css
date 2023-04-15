@@ -1,0 +1,149 @@
+.container{
+    width: 100%;
+    height: 900px;
+    border: 1px solid black;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form{
+     margin-top: 16px;
+}
+.row1{
+    display: flex;
+    width: 600px;
+    height: auto;
+    padding: 3px;
+    box-sizing: border-box;
+   
+}
+.c1{
+    width: 40%;
+    height:60px;
+    margin-right: 35px;
+}
+.c2{
+    width: 40%;
+    height:60px;
+}
+.row2{
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.row3{
+    margin-top: 10px;
+    width: 600px;
+    height: 45px;
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+.checked {
+    color: orange;
+}
+.row5{
+    margin-top: 0px;
+    width: 100%;
+    height: 160px;
+    padding: 3px;
+    box-sizing: border-box;
+   
+}
+.row4{
+    width: 592px;
+    height: 30px;
+    padding: 3px;
+}
+.r1{
+    margin-top: 4px;
+    display: flex;
+    width: 100%;
+    height: 11%;
+    
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.style{
+    margin-right: 99px;
+    width: 120px;
+    height: 50%;
+}
+.adjust1{
+    margin-right: 20px;
+}
+.adjust2{
+    margin-left: 55px;    
+}
+.adjust3{
+    margin-left: 45px;    
+}
+.r2{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 13%;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 10px;
+}
+.r3{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 13%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.r4{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 13%;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 10px;
+}
+.row6{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+.stylea{
+    margin-right: 99px;
+    width: 250px;
+    height: 75%;
+}
+.r22{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 10px;
+}
+.r33{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.r44{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    height: 18%;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 10px;
+}
+.row7{
+   margin-top: 0px;
+   width: 100%;
+   height: 25%;
+   padding: 3px;
+   box-sizing: border-box;
+}
